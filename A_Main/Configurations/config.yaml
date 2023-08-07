@@ -1,0 +1,33 @@
+project:
+  name: 'Crypto_V2'
+  dir: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2'
+
+password:
+  postgres_password: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Sensitive/postgresql_pw.txt'
+
+sys:
+  fig_size_m: [20,15] # Monitor
+  fig_size_l: [12,12] # Laptop
+
+data:
+  raw_data: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/A_Raw'
+  sample_data: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/Samples'
+
+  intermediate_data: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/B_Intermediate'
+
+  # raw_data_train: ''
+  # raw_data_val: ''
+  # raw_data_test: ''
+
+sdo:
+  sdo_feather: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/Serialised_Data_Objects/Feather'
+  sdo_parq: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/Serialised_Data_Objects/Parq'
+  sdo_pkl: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Data/Serialised_Data_Objects/Pkl'
+
+model:
+  model_dir: 'C:/Users/delst/OneDrive/Desktop/Code/Workspace/Crypto_V2/Models/Trained'
+
+pipeline_parameters:
+  # mmean_periods: 168 # Week
+  mmean_periods: 720 # Month
+  # mmean_periods: 2160 # 3 Months
